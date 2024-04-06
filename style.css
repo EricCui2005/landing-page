@@ -1,0 +1,10 @@
+.header-links {
+    list-style-type: none;
+}
+
+/* inline-block style chunk */
+li,
+.header-links,
+.header-logo {
+    display: inline-block;
+}
