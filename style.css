@@ -185,3 +185,13 @@ button {
     border: 1px solid white;
     width: 100px;
 }
+
+/* Footer Section CSS */
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 100px;
+    color:#E5E7EB;
+}
