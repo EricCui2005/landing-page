@@ -140,3 +140,48 @@ button {
     font-weight: 800;
 }
 
+/* Call Section CSS */
+#call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #3882F6;
+    margin: 50px;
+    border-radius: 5px;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+.call-text {
+    width: 500px;
+    color: #E5E7EB;
+}
+
+.call-header {
+    margin: 0px;
+    font-weight: 800;
+}
+
+.call-text {
+    margin: 0px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.call-button {
+    font-weight: 800;
+    border: 1px solid white;
+    width: 100px;
+}
