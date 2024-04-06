@@ -1,10 +1,32 @@
-.header-links {
-    list-style-type: none;
+* {
+    border: 1px solid black;
+    font-family: Arial, sans-serif;
 }
 
-/* inline-block style chunk */
-li,
-.header-links,
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
+.header-links {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    gap: 16px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+li {
+    display: inline-block;
+}
+
 .header-logo {
     display: inline-block;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+
 }
