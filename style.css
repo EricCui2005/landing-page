@@ -117,4 +117,26 @@ button {
     width: 150px;
 }
 
+/* Quote Section CSS */
+#quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7Eb;
+    padding: 40px;
+}
+
+.quote-body {
+    margin: 0px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    width: 500px;
+}
+
+.quoted-person {
+    margin: 0px;
+    font-weight: 800;
+}
 
